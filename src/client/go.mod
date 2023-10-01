@@ -1,4 +1,4 @@
-module webSocket
+module WSClient
 
 go 1.21.0
 
