@@ -32,6 +32,7 @@ func socketHandler(w http.ResponseWriter, r *http.Request) {
             log.Println("Error during message writing: ", err)
             break
         }
+        log.Printf("Sent Message: %s", message)
     }
 }
 
